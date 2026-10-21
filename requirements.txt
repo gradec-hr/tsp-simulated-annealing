@@ -1,0 +1,4 @@
+# Core solver (data.py, distance.py, annealing.py, CSV input) uses only the
+# Python standard library. The dependencies below enable optional features:
+matplotlib>=3.5    # route-map PNG output (omit if you always run with --no-plot)
+openpyxl>=3.0      # reading the original .xlsx workbook via --xlsx
